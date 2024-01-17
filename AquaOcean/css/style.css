@@ -1,0 +1,1880 @@
+/* ///////////////////////////////////////////////////////////// */
+
+/* --------------- GERAIS ----------------*/
+
+#respostas{
+    color: white;
+}
+
+#botaocriarnoticia{
+    display: none;
+}
+
+#criarNoticia{
+    margin-top: 20%;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 2%;
+    padding-top: 1%;
+}
+
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+
+#imgAqua {
+    margin-left: 15%;
+    height: 150px;
+    width: 180px;
+
+}
+
+.row {
+    background-color: #060420;
+    margin-bottom: -20px;
+}
+
+
+#linha {
+    color: blue;
+    box-shadow: 100px 100px 1000px rgb(2, 2, 31);
+}
+
+.box {
+    margin: 20px 0;
+    box-shadow: 0 7px 6px rgba(46, 38, 121, 0.1);
+    margin-top: 0px;
+}
+
+.col-1 {
+    margin-right: -2% !important;
+}
+
+
+#text {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#text:hover {
+    color: rgb(143, 143, 226);
+}
+
+
+.alert-danger {
+    margin-bottom: -20% !important;
+    ;
+    border-color: rgb(255, 0, 0) !important;
+    background-color: rgb(255, 140, 140) !important;
+    color: rgb(255, 255, 255) !important;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 12pt;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+.fixed-bottom {
+    background-color: #060420;
+    color: white;
+    font-size: 15pt;
+    padding: 0.3%;
+    margin-bottom: -6.1%;
+}
+
+
+.centralizar {
+    margin: auto;
+}
+
+.botaoHover:hover {
+    background-color: rgb(143, 143, 226) !important;
+    color: rgb(110, 103, 103) !important;
+}
+
+.text-center {
+    margin-left: 4%;
+    font-size: 15pt;
+}
+
+label {
+    font-size: 14pt;
+    margin-top: -0.5%;
+    color: #060420;
+}
+
+.linkatividade{
+    margin-left: -70px !important;
+    margin-right: 1% !important;
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* --------------- LOGIN ----------------*/
+
+
+
+
+#bodyLogin {
+    margin: 0;
+    padding: 0;
+}
+
+#imgpraialogin {
+    width: 1750px;
+    height: 660px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    filter: blur(3px) !important;
+}
+
+
+#mainLogin {
+    margin: auto;
+    max-width: 1300px;
+    width: 600px;
+    z-index: 1 !important;
+    position: relative;
+    margin-top: -33%;
+}
+
+
+.containerLogin {
+    background-color: rgb(24, 16, 58);
+    border-radius: 50px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    box-shadow: 5px 5px 5px 2px rgb(109, 109, 206);
+}
+
+.containerLogin:hover {
+    box-shadow: 5px 5px 5px 2px rgb(72, 72, 131);
+    translate: 1px 1px;
+    border-radius: 50px;
+}
+
+
+.login {
+    width: 70px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.login:hover {
+    background-color: white;
+}
+
+.logincont {
+    display: flex;
+    justify-content: center;
+}
+
+
+#txtlogin {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#txtlogin:hover {
+    color: rgb(143, 143, 226);
+}
+
+#footerLogin {
+    color: white;
+    font-size: 15pt;
+    background-color: #060420;
+    padding: 0.4%;
+    margin-bottom: -7%;
+    z-index: 1 !important;
+    position: relative;
+    margin-top: 145px;
+}
+
+#logar {
+    font-size: 14pt;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+
+.classeCadastrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: -20%;
+    margin-right: -20%;
+}
+
+#cadastreAqui {
+    font-size: 15pt;
+    color: white;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-right: 4%;
+}
+
+.classeLogar {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#cadastro {
+    margin-top: 3%;
+    font-size: 13pt;
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* --------------- INDEX ----------------*/
+
+
+#headerIndex {
+    border: 1px solid blue;
+    box-shadow: 10px 20px 20px 2px rgb(61, 61, 175);
+}
+
+
+#bodyIndex {
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(200px);
+    height: 1350px;
+}
+
+#site {
+    display: none;
+}
+
+#sair {
+    display: block;
+}
+
+#imgpraiaIndex {
+    width: 1700px;
+    height: 1250px;
+    margin-top: 50px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -3%;
+    margin-left: 5%;
+    filter: blur(3px) !important;
+}
+
+#mainIndex {
+    margin: auto;
+    max-width: 1200px;
+    width: 1200px;
+    z-index: 1 !important;
+    position: relative;
+}
+
+
+
+
+
+/* Para telas grandes (1200px ou mais) */
+@media screen and (min-width: 1380px) {
+    #mainIndex {
+        margin-top: -49%;
+    }
+
+
+    #imgpraiaContato {
+        height: 680px !important;
+    }
+
+    #footerLogin {
+        margin-top: 10.20% !important;
+    }
+
+    #footerCadastro {
+        margin-top: 5.22% !important;
+    }
+}
+
+    /*aqui*/
+
+@media screen and (max-width: 1370px) {
+
+    #mainIndex {
+        margin-top: -75%;
+        width: 1000px;
+    }
+
+    #imgpraiaIndex {
+        height: 1200px;
+        width: 1370px;
+        margin-left: -20px;
+        margin-top: 30px;
+    }
+
+    #imgpraiaContato {
+        height: 680px !important;
+
+    }
+
+    #footerLogin {
+        margin-top: 10.20% !important;
+    }
+
+    #footerCadastro {
+        margin-top: 5.22% !important;
+    }
+
+    #textoSobre {
+        height: 40px;
+        font-size: 2px;
+    }
+
+    #equipe #textoSobre {
+        font-size: 30px;
+    }
+
+    #cards .card2 {
+
+        margin-top: -10%;
+    }
+
+    #imgpraiaSobre {
+        max-width: 1200px;
+        margin-bottom: 6%;
+    }
+
+    .imgnoticia2{
+        width: 360px;
+    }
+
+
+    .imgnoticia5{
+        width: 320px;
+    }
+
+    #sobre {
+        height: 200px;
+        z-index: 2;
+
+    }
+
+    #imgpraiaContato {
+        max-width: 1200px;
+        width: 1200px;
+        height: 1200px;
+
+    }
+
+    #mainContato {
+        margin-top: -50% !important;
+    }
+
+    #footerContato {
+        margin-bottom: -220px !important;
+    }
+
+
+    #mainLogin {
+
+        margin-top: -45%;
+    }
+
+    #imgpraialogin {
+        max-width: 1200px;
+    }
+
+
+    #mainCadastro {
+        margin-top: -49% !important;
+    }
+
+
+    #imgpraiaCadastro {
+        max-width: 1200px;
+    }
+
+    #footerCadastro {
+        margin-top: 10% !important;
+    }
+
+    #mainPerfil {
+        margin-top: -70% !important;
+        margin-left: 80px;
+
+    }
+
+
+
+    #imgpraiaperfil {
+        max-width: 1300px;
+    }
+
+
+    #footerPerfil {
+        margin-top: -0.0009999999999% !important;
+    }
+
+}
+
+
+@media screen and (max-width: 535px) {
+    .row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0% !important;
+        border-bottom: 2px solid #000261;
+        max-width: 535px;
+    }
+
+    .col-1 {
+        margin-left: -30px !important;
+        margin-top: 2% !important;
+        padding-bottom: 1%;
+    }
+    
+    #text {
+        font-size: 15pt;
+
+    }
+
+    #mainPerfil{
+        margin-top: 20% !important;
+        margin-left: 16% !important;
+   
+        
+    }
+
+
+    #divHeader {
+        border-bottom: 2px solid rgb(128, 125, 125);
+        width: 100%;
+    }
+
+    span {
+        margin-left: 42% !important;
+    }
+
+    .login {
+        margin-left: 37%;
+        border: 0px !important;
+        margin-top: -8% !important;
+        padding-bottom: 1% !important;
+    }
+
+    #imgAqua {
+        margin-left: 34%;
+        height: 80px;
+        width: 100px;
+    }
+
+    #formIndex {
+        margin-top: 20% !important;
+    }
+
+    #imgpraiaIndex {
+        max-width: 535px;
+        display: none;
+    }
+
+    #bodyIndex {
+        max-width: 100%;
+    }
+
+
+    #mainIndex {
+        margin-top: -15%;
+        max-width: 350px !important;
+        margin-bottom: 30% !important;
+        border-radius: 2px !important;
+        margin-left: 10%;
+        overflow: hidden;
+    }
+
+    .containerIndex {
+        width: 300px !important;
+        margin-left: 2% !important;
+        padding: 0% !important;
+
+    }
+
+    #footerPerfil{
+        width: 118% !important;
+    }
+
+    .containerConsulta {
+        margin-top: 5% !important;
+        margin-left: -4% !important;
+    }
+
+    #consulta {
+        width: 215px !important;
+        margin-left: -13.5% !important;
+        height: 50px;
+        margin-bottom: 33px;
+    }
+
+    #labelConsulta {
+        margin-left: -35%;
+        font-size: 7pt !important;
+        margin-top: 1.45% !important;
+
+    }
+
+    .imgnoticia2 {
+        margin-left: 20%;
+    }
+
+    #botaoConsulta {
+        margin-top: 2% !important;
+        margin-left: -15%;
+        width: 70px;
+        height: 50px;
+        font-size: 9pt !important;
+    }
+
+    #site {
+        max-width: 100%;
+    }
+
+    #equipe{
+        width: 93px !important;
+        height: 50px;
+    }    
+
+    #divpraia {
+        max-width: 300px;
+    }
+
+    #imgnoticia {
+        width: 250px;
+        height: 140px;
+        margin-left: 8% !important;
+        
+    }
+
+    .containerIndex #tituloIndex {
+        font-size: 25pt;
+        margin-left: 5%;
+    }
+
+
+    .h6 {
+        font-size: 12pt !important;
+        margin-left: 5% !important;
+    }
+
+    .titulonoticia {
+        font-size: 12pt !important;
+        margin-top: 76% !important;
+        margin-left: -95%;
+    }
+
+    .infonoticia2{
+        width: 10% !important;
+    }
+
+    .infoNoticia5{
+        display: none !important;
+    }
+
+   
+    #title1{
+        font-size: 13pt !important;
+        margin-left: -92%;
+        margin-top: 50% !important;
+        width: 280px;
+        margin-bottom: 5%;
+        
+    }
+
+    .paragrafo1{
+        margin-left: -10% !important;
+        margin-top: -7% !important;
+    }
+
+    .imgnoticia1{
+        margin-left: 150px !important;
+        margin-bottom: 60px !important;
+        width: 250px !important;
+        
+    }
+
+    #paragrafo {
+        font-size: 8pt;
+        margin-left: -10% !important;
+        margin-top: -20% !important;
+    }
+
+    #cards {
+        flex-direction: column;
+    }
+
+    #cards .card2 {
+        margin-top: 18%;
+    }
+    #mainSobre{
+        margin-top: -10.6% !important;
+    }
+    .infoSobre {
+        margin-top: -3% !important;
+    }
+
+    #footerSobre {
+        margin-top: -9% !important;
+    }
+
+    #imgpraiaSobre {
+        display: none;
+    }
+
+    #sobre {
+        height: 250px;
+        margin-top: 20% !important;
+    }
+
+    #textoSobre {
+        font-size: 9pt !important;
+        margin-top: 4% !important;
+    }
+
+    #form {
+        width: 100px;
+    }
+
+    .containerConsulta #consulta {
+        margin-right: 0px !important;
+        width: 100px !important;
+    }
+
+    .infoSobre img {
+        width: 150px !important;
+        height: 150px !important;
+        margin-left: 15% !important;
+    }
+
+    #cardDiogo {
+        margin-top: 20% !important;
+    }
+
+    .containerSobre {
+        margin-bottom: 20% !important;
+        height: 181px;
+    }
+
+    #cardVinicius {
+        width: 268px;
+    }
+
+    #nomeVinicius {
+        font-size: 13pt;
+    }
+
+    #imgpraiaContato {
+        display: none;
+    }
+
+    #tituloContato{
+      font-size: 25pt !important;
+    }
+
+    #mainContato {
+        margin-top: 0% !important;
+        width: 290px !important;
+    }
+
+    #tituloCadastro{
+        font-size: 25pt !important;
+      }
+ 
+      #cadastreAqui{
+        margin-top: 3%;
+      }
+
+    #nome{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #email{
+        width:80%;
+        margin-left: 10%;
+
+    }
+
+    #telefone{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #senha{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #confirmacaoSenha{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #labels{
+        margin-left: 10%;
+    }
+    .labelContato{
+        width: 80%;
+    }
+
+    #textoContato{
+        font-size: 13pt !important;
+    }
+
+    #imgpraialogin {
+        display: none;
+    }
+
+    #mainLogin {
+        margin-top: 0% !important;
+        width: 305px !important;
+    }
+
+    #cadastreAqui {
+        font-size: 7pt !important;
+    }
+
+    #footerLogin {
+        margin-top: 21.2% !important;
+    }
+
+    #imgpraiaperfil {
+        display: none;
+    }
+
+    #cardsPerfil {
+        width: -1px !important;
+        margin-top: -45% !important;
+        margin-left: -19%;
+        padding: 38% !important;
+    }
+
+    #divExcluir {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    #inputEscolher {
+        font-size: 6pt !important;
+        margin-left: 0% !important;
+        margin-top: 75% !important;
+    }
+
+    .infoPerfil img {
+        width: 110px !important;
+        height: 110px !important;
+    }
+
+    #nomeDiogo {
+        font-size: 10pt !important;
+    }
+
+    #webDev {
+        font-size: 8pt !important;
+    }
+
+    #paragrafoBotaoExcluir {
+        font-size: 13pt !important;
+    }
+
+    #excluir {
+        font-size: 10pt !important;
+    }
+
+    #linkExcluir {
+        margin-top: 2% !important;
+        margin-right: 6% !important;
+    }
+
+    #logout {
+        font-size: 13pt !important;
+    }
+
+    #textoPerfil{
+        display: flex;
+    }
+
+    .blue{
+        margin-right: 2% !important;
+    }
+
+    #perfil {
+        width: 48% !important;
+        margin-left: 27% !important;
+        margin-top: 10% !important;
+    }
+
+    #imgpraiaCadastro {
+        display: none;
+    }
+
+    #mainCadastro {
+        width: 300px !important;
+        margin-top: -10% !important;
+    }
+    #footerIndex{
+        margin-bottom: -95% !important;
+       
+    }
+    .text-center{
+       font-size: 10pt;
+    }
+    .blue{
+        margin-left: 4% !important;
+    }
+    .form-floating>label {
+        left: 19px !important;
+    }
+    #cadastro{
+        font-size: 8pt !important;
+    }
+    #nomecompleto{
+        font-size: 9pt;
+    }
+ 
+    #infoNoticia5{
+        margin-bottom: 20px;
+        width: 20px !important;
+
+    }
+
+        #headerPerfil{
+           width: 115%;
+        }
+
+        #existeno{
+            width: 114%;
+        }
+
+    .imgnoticia2{
+        width: 100% !important;
+    }
+    #title2{
+        font-size: 13pt !important;
+        margin-left: -860%;
+        margin-top: 460% !important;
+        width: 280px;
+        margin-bottom: 20px !important;
+        
+        
+    }
+    #title3{
+        margin-left: -91% !important;
+        margin-top: 50% !important;
+        font-size: 13pt !important;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    #paragrafo{
+        display: none;
+    }
+    #title4{
+        margin-left: -92%;
+        margin-top: 50% !important;
+        font-size: 13pt !important;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    #title5{
+        margin-left: -1320%;
+        margin-top: 700% !important;
+        font-size: 13pt !important;
+        width: 280px;
+    }
+
+    .infoNoticia5{
+        display: none !important;
+    }
+
+    /*PROBLEMA ESTÁ AQUI*/
+   
+}
+
+
+
+#footerIndex {
+    margin-top: 80% !important;
+}
+
+
+#form {
+    width: 100%;
+}
+
+.containerConsulta #consulta {
+    margin-right: 0px;
+}
+
+#divpraia {
+    backdrop-filter: blur(px);
+}
+
+
+#footerIndex {
+    color: white;
+    font-size: 15pt;
+    background-color: #060420;
+    padding: 0.4%;
+    margin-bottom: -7%;
+}
+
+.containerIndex {
+    background-color: rgb(24, 16, 58);
+    border-radius: 30px;
+    margin-top: 4%;
+    padding-top: 0.3%;
+    padding-bottom: 0.5%;
+    box-shadow: 5px 5px 5px 2px rgb(109, 109, 206);
+}
+
+.containerConsulta {
+    margin-top: -25%;
+    margin-right: 92% !important;
+    margin-left: 20% !important;
+    display: flex;
+    padding-left: 10% !important;
+}
+
+#consulta {
+    background-color: #060420;
+    color: aliceblue;
+    margin-top: 1% !important;
+    border-radius: 20px;
+    font-size: 18pt;
+    margin-right: 400px !important;
+}
+
+#labelConsulta {
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.divbotaoConsulta {
+    margin-top: 1.2% !important;
+    margin-left: 1.3% !important;
+    margin-bottom: 3%;
+
+}
+
+#botaoConsulta {
+
+    color: white;
+    border-radius: 15px;
+    font-size: 15pt;
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.noticia {
+    display: flex;
+}
+
+.noticia>p {
+    padding-top: 1%;
+}
+
+.news {
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.news:hover {
+    color: rgb(101, 199, 255);
+}
+
+
+.blue {
+    color: rgb(101, 199, 255);
+}
+
+.h6 {
+    color: white;
+    margin-top: -5px;
+    margin-left: 30px;
+}
+
+
+#imgnoticia {
+    border-radius: 20px;
+}
+
+.noticia>p {
+    color: white;
+}
+
+
+.noticia #imgnoticia {
+    border-radius: 10%;
+}
+
+
+.titulonoticia {
+    font-size: 25px;
+    margin-top: 25px;
+    color: white;
+
+}
+
+.titulonoticia:hover {
+    color: rgb(143, 143, 226);
+}
+
+
+#click {
+    text-decoration: none;
+}
+
+#paragrafo {
+    color: #cbc9e7;
+}
+
+#paragrafo:hover {
+    color: rgb(143, 143, 226);
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* --------------- SOBRE ----------------*/
+
+#imgpraiaSobre {
+    width: 1750px;
+    height: 660px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    filter: blur(3px) !important;
+}
+
+#mainSobre {
+
+    margin-top: -39.6%;
+
+}
+
+#headerSobre {
+    border: 1px solid blue;
+    box-shadow: 10px 20px 20px 2px rgb(61, 61, 175);
+}
+
+#bodySobre {
+    margin: 0;
+    padding: 0;
+    height: 1200px;
+
+}
+
+#footerSobre {
+    color: white;
+    background-color: #060420;
+    padding: 0.3%;
+    margin-top: 50px;
+}
+
+.icones {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5%;
+    background-color: aliceblue;
+    border-radius: 100%;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8%;
+    padding: 5%;
+
+}
+
+.infoSobre {
+    margin-top: -30%;
+    margin-left: 1%;
+}
+
+.card2 {
+    text-align: center;
+    padding: 6%;
+    background-color: #060420;
+    border-radius: 20px;
+    border: 5px solid #060420;
+    text-shadow: 1px 1px 1px#060420;
+    margin: 5%;
+    color: rgb(255, 255, 255);
+    animation: flutuar 3s ease-in-out infinite;
+    box-shadow: 2px 5px 5px 3px rgb(110, 110, 194);
+    margin-top: 18px;
+}
+
+@keyframes flutuar {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.card2:hover {
+    box-shadow: 2px 5px 5px 2px rgb(0, 0, 223);
+    translate: 4px 4px;
+}
+
+
+.infoSobre img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #4290c4;
+    object-fit: cover;
+
+}
+
+.infoSobre h2 {
+    font-size: 22px;
+    margin-left: -20%;
+    margin-right: -20%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+
+.infoSobre h4 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.linksCard {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: -1%;
+    margin-right: -8%;
+}
+
+.linksCard a {
+    display: inline-block;
+    color: #cbc9e7;
+    transition: color 0.3s ease-in-out;
+    margin-right: 11px;
+    margin-top: 5%;
+}
+
+#nomeVinicius {
+    margin-left: -50%;
+    margin-right: -50%;
+}
+
+.containerSobre {
+    margin-top: -5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #060420;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    box-shadow: 2px 5px 5px 3px rgb(80, 80, 148);
+
+}
+
+#sobre {
+    margin: 2%;
+
+}
+
+#textoSobre {
+    font-size: 18pt;
+    text-shadow: 0 0 30px rgba(58, 68, 126, 0.8);
+    color: white;
+    margin-top: 5px;
+}
+
+#textoSobre:hover {
+    color: rgb(143, 143, 226);
+}
+
+.containerSobre:hover {
+    box-shadow: 2px 5px 5px 2px rgb(0, 0, 223);
+    translate: 4px 4px;
+}
+
+#equipe {
+    display: flex;
+    justify-content: center;
+    background-color: #060420;
+    width: 35%;
+    margin-left: 33%;
+    border-radius: 10px;
+}
+
+#equipe>p {
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* --------------- CADASTRO ----------------*/
+
+#bodyCadastro {
+    margin: 0;
+    padding: 0;
+
+}
+
+#imgpraiaCadastro {
+    width: 1750px;
+    height: 660px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    filter: blur(3px) !important;
+}
+
+#headerCadastro {
+    border: 1px solid blue;
+    box-shadow: 10px 20px 20px 2px rgb(61, 61, 175);
+}
+
+
+#mainCadastro {
+    margin: auto;
+    max-width: 1300px;
+    width: 600px;
+    z-index: 1 !important;
+    position: relative;
+    margin-top: -35%;
+
+}
+
+.containerCadastro {
+    background-color: rgb(24, 16, 58);
+    border-radius: 50px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    box-shadow: 5px 5px 5px 2px rgb(109, 109, 206);
+
+}
+
+.containerCadastro:hover {
+    box-shadow: 5px 5px 5px 2px rgb(109, 109, 206);
+    translate: 1px 1px;
+    border-radius: 50px;
+}
+
+
+#footerCadastro {
+    color: white;
+    font-size: 15pt;
+    background-color: #060420;
+    padding: 0.4%;
+    margin-bottom: -7%;
+    z-index: 1 !important;
+    position: relative;
+    margin-top: 140px;
+}
+
+
+.form-check-label {
+    color: white;
+    font-size: 13pt;
+
+}
+
+#divtitulocadastro {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#tituloCadastro {
+    font-size: 35pt;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2%;
+
+}
+
+
+.botaocadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 4%;
+}
+
+#cadastrar {
+    font-size: 14pt;
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* --------------- CONTATO ----------------*/
+
+#imgpraiaContato {
+    width: 1750px;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 100px;
+    margin-left: 5%;
+    filter: blur(3px) !important;
+    margin-bottom: -50px;
+}
+
+
+#headerContato {
+    border: 1px solid blue;
+    box-shadow: 10px 20px 20px 2px rgb(61, 61, 175);
+}
+
+#bodyContato {
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(200px);
+}
+
+
+#mainContato {
+    margin: auto;
+    max-width: 1300px;
+    width: 600px;
+    z-index: 1 !important;
+    position: relative;
+    margin-top: -33%;
+}
+
+
+#mainContato:hover {
+    box-shadow: 5px 5px 5px 2px rgb(102, 102, 177);
+    translate: 1px 1px;
+    border-radius: 50px;
+}
+
+
+#footerContato {
+    color: white;
+    background-color: #060420;
+    padding: 0.3%;
+    margin-bottom: -158px;
+}
+
+
+
+.containerContato {
+    margin-top: 0%;
+    background-color: rgb(24, 16, 58);
+    border-radius: 50px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    box-shadow: 5px 5px 5px 2px rgb(109, 109, 206);
+}
+
+
+#divtitulocontato {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#tituloContato {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1%;
+
+}
+
+#tituloContato:hover {
+    color: rgb(143, 143, 226);
+}
+
+
+#textoContato {
+    font-size: 16pt;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+#containerContato {
+    font-size: 20pt;
+}
+
+#divbotaoContato {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#botaoContato {
+    font-size: 15pt;
+}
+
+
+input:hover {
+    background-color: rgb(143, 143, 226);
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* --------------- PERFIL ----------------*/
+
+#imgpraiaperfil {
+    width: 1750px;
+    height: 850px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 100px;
+    margin-left: 5%;
+    filter: blur(3px) !important;
+    margin-bottom: -50px;
+}
+
+
+#fotoPerfil {
+    display: flex;
+}
+
+#fotoDiogoPerfil {
+    margin-top: 22%;
+}
+
+#webDev {
+    margin-top: -4%;
+    font-size: 20pt;
+}
+
+#nomeDiogo {
+    font-size: 23pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+#informacaoPerfil {
+    margin-left: -65%;
+    margin-top: -10%;
+}
+
+
+#inputEscolher {
+    font-size: 15pt;
+    margin-top: 210%;
+    margin-left: 20%;
+    border: 2px solid #4290c4;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+    padding-top: 1.5% !important;
+    padding-bottom: 1.5% !important;
+    background-color: #332d92;
+    border: 5px solid #000261;
+    border-radius: 30px;
+}
+
+#textoPerfil {
+    font-size: 18pt;
+    text-shadow: 0 0 30px rgba(58, 68, 126, 0.8);
+    color: white;
+    margin-top: 5px;
+}
+
+#textoPerfil:hover {
+    color: rgb(143, 143, 226);
+}
+
+#perfil {
+    display: flex;
+    justify-content: center;
+    background-color: #060420;
+    width: 15%;
+    margin-left: 43%;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+#perfil>p {
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cardsPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -53%;
+    padding: 5%;
+
+}
+
+.infoPerfil {
+    margin-top: -30%;
+    margin-left: 1%;
+}
+
+.card2Perfil {
+    text-align: center;
+    padding: 6%;
+    background-color: #060420;
+    border-radius: 20px;
+    border: 5px solid #060420;
+    text-shadow: 1px 1px 1px#060420;
+    margin: 5%;
+    color: rgb(255, 255, 255);
+    animation: flutuar 3s ease-in-out infinite;
+    box-shadow: 2px 7px 7px 3px rgb(110, 110, 194);
+    margin-top: 18px;
+}
+
+@keyframes flutuar {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.card2Perfil:hover {
+    box-shadow: 2px 5px 5px 3px rgb(0, 0, 223);
+}
+
+.botoesPerfil {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#logout {
+    font-size: 18pt;
+    margin-top: 8%;
+    margin-left: -65%;
+}
+
+#linkExcluir{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+#excluir{
+    font-size: 14pt;
+}
+
+#paragrafoBotaoExcluir{
+    font-size: 20pt;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#paragrafoBotaoNoticia{
+    font-size: 20pt;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#divExcluir{
+    display: flex;
+    margin-top: 15%;
+    margin-left: -8%;
+    margin-right: -8%;
+    border: 5px solid #000261;
+    border-radius: 40px;
+    padding: 0.5%;
+    background-color: #332d92;
+    box-shadow: 1px 1px 1px 1px rgb(0, 54, 230);
+}
+
+
+#divExcluir:hover {
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 223);
+    translate: 1px 1px;
+}
+
+.infoPerfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #4290c4;
+    object-fit: cover;
+
+}
+
+.infoPerfil h2 {
+    font-size: 22px;
+    margin-left: -20%;
+    margin-right: -20%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+
+.infoPerfil h4 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+#footerPerfil {
+    color: white;
+    background-color: #060420;
+    padding: 0.3%;
+    margin-top: -20px;
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* --------------- RESPONSIVIDADE ----------------*/
+
+
+
+@media all and (600px < width < 1300px) {
+
+    .box {
+        width: 145% !important;
+    }
+
+    #imgpraiaIndex {
+        width: 145%;
+        height: 1550px;
+        margin-left: 0%;
+    }
+
+    .login {
+        margin-left: 10%;
+    }
+
+    .containerIndex {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .containerConsulta {
+        margin-top: -80%;
+        margin-left: 15% !important;
+    }
+
+    #footerIndex {
+        margin-bottom: -60%;
+    }
+
+    .fixed-bottom {
+        width: 146.5% !important;
+    }
+
+    #imgpraiaSobre {
+        margin-left: -5%;
+
+    }
+
+    #headerSobre {
+        width: 114%;
+    }
+
+    #mainSobre {
+        margin-left: 40%;
+        margin-right: -30%;
+        margin-top: -70%;
+    }
+
+    .card2 {
+        padding: 10%;
+    }
+
+    #equipe {
+        margin-left: 60%;
+        padding-bottom: 5%;
+        padding-left: 1%;
+    }
+
+    .containerSobre {
+        margin-top: 10%;
+    }
+
+    #textoSobre {
+        font-size: 14pt;
+    }
+
+    #footerSobre {
+        margin-top: 35% !important;
+        width: 167%;
+    }
+
+    #imgpraiaContato {
+        width: 145%;
+        margin-left: 0%;
+    }
+
+    #mainContato {
+        margin-left: 30%;
+        margin-top: -80% !important;
+    }
+
+    #footerContato {
+        margin-bottom: -76% !important;
+    }
+
+    #imgpraialogin {
+        width: 145%;
+        height: 900px;
+        margin-left: 0%;
+    }
+
+    #mainLogin {
+        margin-left: 30%;
+        margin-top: -110% !important;
+    }
+
+    #footerLogin {
+        margin-top: 40% !important;
+    }
+
+    .logincont {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #imgpraiaCadastro {
+        width: 145%;
+        height: 900px;
+        margin-left: 0%;
+    }
+
+    #mainCadastro {
+        margin-left: 30%;
+        margin-top: -120% !important;
+    }
+
+    #footerCadastro {
+        margin-top: 65% !important;
+    }
+
+    #imgpraiaperfil {
+        width: 145%;
+        height: 1200px;
+        margin-left: 0%;
+    }
+
+    #mainPerfil {
+        margin-left: 45%;
+        margin-top: -140% !important;
+    }
+
+    #footerPerfil {
+        margin-top: 65% !important;
+    }
+
+    #perfil {
+        width: 30%;
+        margin-top: 20%;
+        margin-bottom: -30%;
+        margin-left: 55%;
+    }
+
+    .card2Perfil {
+        padding: 20%;
+        padding-right: 35%;
+    }
+
+    #divExcluir {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-right: 5%;
+    }
+
+    #footerPerfil {
+        margin-top: 23% !important;
+        width: 146.5%;
+    }
+
+}
+
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* --------------- ATIVIDADES ----------------*/
+
+
+#textoAtividade {
+    font-size: 18pt;
+    text-shadow: 0 0 30px rgba(58, 68, 126, 0.8);
+    color: white;
+    margin-top: 5px;
+}
+
+#textoAtividade:hover {
+    color: rgb(143, 143, 226);
+}
+
+
+#atividade {
+    display: flex;
+    justify-content: center;
+    background-color: #060420;
+    width: 25%;
+    margin-left: 38%;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+#atividade>p {
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
